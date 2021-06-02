@@ -164,6 +164,8 @@
         box-shadow: 0 4px 4px rgba(0, 0, 0, .1);
         border-radius: 0 0 1rem 1rem;
         z-index: var(--z-fixed);
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -171,6 +173,13 @@
 {
     margin-bottom: var(--mg-2);
 } 
+
+.nav-list{
+  display: flex;
+  width: 500px;
+    justify-content: space-evenly;
+
+}
 
 .nav_link, .nav-logo, .nav_toggle
 {
@@ -362,19 +371,17 @@
   /*========== MEDIA QUERIES ==========*/
   @media screen and (min-width: 576px){
     .home__container,
-    .about__container,
-    .app__container{
+    .about__container{
       grid-template-columns: repeat(2,1fr);
       align-items: center;
     }
   
     .about__data, .about__initial,
-    .app__data, .app__initial,
     .contact__container, .contact__initial{
       text-align: initial;
     }
   
-    .about__img, .app__img{
+    .about__img{
       width: 380px;
       order: -1;
     }
@@ -407,8 +414,8 @@
       margin-left: var(--mb-5);
       margin-bottom: 0;
     }
-    .nav__toggle{
-      display: none;
+    .nav_toggle{
+       display: none; 
     }
   
     .change-theme{
