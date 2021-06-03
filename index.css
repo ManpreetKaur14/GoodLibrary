@@ -312,11 +312,11 @@ makaut-card-img
   display:flex;
   justify-content: center;
   align-items: center;
-  /* max-width: 1200px; */
+  max-width: 1400px;
   /* flex-direction:column; */
   flex-wrap: wrap;
   padding: 40px 0;
-  flex: 1 0 auto;
+  /* flex: 1 0 auto; */
 }
 .container .card
 {
