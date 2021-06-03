@@ -1,0 +1,96 @@
+ * :root {
+    --header-height: 3rem;
+    --first-color: #2c2c54;
+    --second-color: #ff5252;
+    --title-color: #393939;
+    --text-color: #707070;
+    --text-color-light: #A6A6A6;
+    --body-color: #FBFEFD;
+    --container-color: #ffffff;
+
+/* =========== FONT & TYPE ============ */
+    --body-font: 'Poppins' , sans-serif;
+    --biggest-size: 2.25rem;
+    --h1-size: 1.5rem;
+    --h2-size: 1.25rem;
+    --h3-size: 1rem;
+    --normal-size: .938rem;
+    --small-size: .813rem;
+    --smallest-size: .75rem;
+
+    /* =========== FONT Weight ============ */
+    --font-medium : 500;
+    --font-semi-bold : 600;
+
+    /* =========== Margins ============ */
+    --mg-1:.5rem;
+    --mg-2:1rem;
+    --mg-3:1.5rem;
+    --mg-4:2rem;
+    --mg-5:2.5rem;
+    --mg-6:3rem;
+
+    /* =========== z-index ============ */
+      --z-tool-tip: 10;
+      --z-fixed:100
+ }
+*
+{
+    box-sizing: border-box;
+}
+.dashboard__data{
+    text-align: center;
+
+}
+.dashboard-subtitle{
+    font-size: 1.5rem;
+    color: #393939;
+    margin-bottom: 1rem;
+}
+.container
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* max-width: 1200px; */
+    /* flex-direction:column; */
+    flex-wrap: wrap;
+    padding: 40px 0;
+    flex: 1 0 auto;
+}
+.container .card
+{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.05),
+    inset -5px -5px 5px rgba(255, 255, 255, 0.5), 5px 5px 5px rgba(0, 0, 0, 0.05), -5px -5px 5px rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    margin: 30px;
+}
+.container .card .box
+{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    left: 20px;
+    bottom: 20px;
+    background: #ebf5fc;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .card .box .content
+{
+    padding: 20px;
+    text-align: center;
+}
+.container .card .box .content h3
+{
+    font-size: 1.8rem;
+    color: #777;
+    z-index: 1;
+    transition: 0.5s;
+}
