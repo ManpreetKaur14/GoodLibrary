@@ -4,7 +4,7 @@
     --first-color: #2c2c54;
     --second-color: #ff5252;
     --title-color: #393939;
-    --text-color: #707070;
+    --text-color: #ed3030;
     --text-color-light: #A6A6A6;
     --body-color: #FBFEFD;
     --container-color: #ffffff;
@@ -140,7 +140,7 @@
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: var(--body-color);
+    background-color: var(--first-color);
 }
 .nav{
     max-width: 1024px;
@@ -159,7 +159,7 @@
         width: 100%;
         padding: 1.5rem 0 1rem;
         text-align: center;
-        background-color: var(--body-color);
+        background-color: var(--first-color);
         transition:.5s;
         box-shadow: 0 4px 4px rgba(0, 0, 0, .1);
         border-radius: 0 0 1rem 1rem;
@@ -365,7 +365,7 @@ makaut-card-img
 {
   transform: translateY(-5px);
   box-shadow: 0 10px 40px rgba(0, 0, 0, .2);
-  background: linear-gradient(45deg ,#2c2c54,#ff5252);
+/* background: linear-gradient(45deg ,#2c2c54,#ff5252);   */
 }
 .container .card .box .content
 {
