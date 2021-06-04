@@ -47,6 +47,9 @@
     --smallest-size: .813rem;
     }
 }
+.bx{
+  cursor: pointer;
+}
     /* =========== BASE ============ */
     *,::before,::after{
         box-sizing: border-box;
