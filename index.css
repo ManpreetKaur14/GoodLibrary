@@ -516,6 +516,10 @@ font-weight: 700;
     .contact__button{
       justify-self: center;
     }
+    .nav-list{
+      display:flex;
+      margin:auto;
+    }
   }
   
   @media screen and (min-width: 768px){
