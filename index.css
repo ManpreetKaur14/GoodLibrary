@@ -143,6 +143,9 @@
             box-shadow: 0 4px 4px rgba(0, 0, 0, .1);
             border-radius: 0 0 1rem 1rem;
             z-index: var(--z-fixed);
+            /* width: 500px; */
+            /* justify-content: space-evenly; */
+          
             /* display: flex;
             flex-direction: row;
             flex-wrap: wrap; */
@@ -386,7 +389,7 @@ font-weight: 700;
 }
 .container .card .box .content a:hover{
   font-weight: 900;
-      color: #fff;
+  color: #fff;
 }
 
 /* about */
@@ -535,6 +538,7 @@ font-weight: 700;
     }
     .nav-list{
       display: flex;
+      
     }
     .nav-item{
       margin-left: var(--mb-5);

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="book.css">
+    <link rel="stylesheet" href="../index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="../index.js"></script>
+    <script src="book.js"></script>
+</head>
+<body>
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav-logo">MyLibrary</a>
+            <class class="nav-menu" id="nav_menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav_link">Home</a></li>
+                    <li class="nav-item"><a href="#services" class="nav_link">Dashboard </a></li>
+                    <li class="nav-item"><a href="#about" class="nav_link">About</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav_link">Contact</a></li>
+                    <li class="nav-item"><i class='bx bx-moon change-theme nav_link' id="theme-button"></i></li>
+                    <li class="nav-item"><i class='bx bx-log-out-circle nav_link' id="logout-btn"></i></li>
+                </ul>
+            </class>
+            </div>
+            <div class="nav_toggle" id="nav_toggle">
+                <i class='bx bx-menu'></i> 
+            </div>
+        </nav>
+    
+        </header>
+        <main class="l-main">
+          <section class="book" id="book">
+            <class class="book__container bd-container bd-grid">
+              <div class="dropdown">
+                <select name="one" id="input" class="dropdown-select"  onchange="random_function()">
+                  <option>Select Branch</option>
+                  <option value="BCA">BCA</option>
+                  <option value="BBA">BBA</option>
+                  <option value="MCA">MCA</option>
+                  <option value="ME">B.Tech. ME</option>
+                  <option value="CSE">B.Tech. CSE</option>
+                  <option value="EI">B.Tech. EI</option>
+                  <option value="EC">B.Tech. EC</option>
+                  <option value="IT">B.Tech. IT</option>
+                  <option value="CS">B.Tech. CS</option>
+                  <option value="EE">B.Tech. EE</option>
+                </select>
+              </div>
+                    <div class="dropdown dropdown-dark">
+                      <select name="two" class="dropdown-select"  id="output" >
+                        <option>Select Semester</option>
+                      </select>
+                    </div>
+            </class>
+          </section>
+    <!------------------------------ Scroll Reveal------------------------------>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+</body>
+</html>
+
+
