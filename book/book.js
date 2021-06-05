@@ -32,16 +32,81 @@ function random_function()
 function random_function_sem(){
     var a=document.getElementById("input").value;
     var b=document.getElementById("output").value;
-    console.log(a,b)
-    if(a=="BCA" && b=="2")
+
+    // =========================BCA============================
+
+    if(a=="BCA" && b=="1")
     {
     
-        var arr2=["Select Subject","5","6"];
+        var arr2=["Select Subject","BCAN-101","BCAN-102","BCAN-103","BMN-101"];
     }
-    else
+    else if(a=="BCA" && b=="2")
     {
-        arr2=["Select Subject","bingo"];
+        arr2=["Select Subject","BCAN-201","BCAN-202","BCAN-203","BMN-101","HUN-201"];
     }
+    else if(a=="BCA" && b=="3")
+    {
+        arr2=["Select Subject","BCAN-301","BCAN-E302A","BCAN-303","BMN-301"];
+    }
+    else if(a=="BCA" && b=="4")
+    {
+        arr2=["Select Subject","BCAN-401","BCAN-402","BCAN-403","BMN-401"];
+    }
+    else if(a=="BCA" && b=="5")
+    {
+        arr2=["Select Subject","BCAN-501","BCAN-502","BCA(BBA)N-504"];
+    }
+    else if(a=="BCA" && b=="6")
+    {
+        arr2=["Select Subject","BCAN-601B","BCAN-E601C","BCAN-E602B","BCAN E602C","HUN-601"];
+    }
+
+    // =========================BBA============================
+
+    else if(a=="BBA" && b=="1")
+    {
+    
+         arr2=["Select Subject","BBA(N)-101","BBA(N)-102","BBA(N)-103","BBA(N)-104","BBA(N)-105"];
+    }
+    else if(a=="BBA" && b=="2")
+    {
+        arr2=["Select Subject","BBA(N)-201","BBA(N)-202","BBA(N)-203","BBA(N)-204","BBA(N)-205"];
+    }
+    else if(a=="BBA" && b=="3")
+    {
+        arr2=["Select Subject","BBA(N)-301","BBA(N)-302","BBA(N)-303","BBA(N)-304","BBA(N)-305"];
+    }
+    else if(a=="BBA" && b=="4")
+    {
+        arr2=["Select Subject","BBA(N)-401","BBA(N)-402","BBA(N)-403","BBA(N)-405","BBA(N)-405"];
+    }
+    else if(a=="BBA" && b=="5")
+    {
+        arr2=["Select Subject","BBA(N)-501","BBA(N)-502","BBA(N)-503","BBA(N)-505","BBA(N)-505"];
+    }
+    else if(a=="BBA" && b=="6")
+    {
+        arr2=["Select Subject","BBA(N)-601","BBA(N)-602","BBA(N)-603","BBA(N)-604"];
+    }
+    // =========================MCA============================
+
+    else if(a=="MCA" && b=="1")
+    {
+        arr2=["Select Subject","MCA-101","MCA-102","MCA-103","HU-101","MM-101"];
+    }
+    else if(a=="MCA" && b=="2")
+    {
+        arr2=["Select Subject","MCA-201","MCA-202","MCA-203","MCA-204","MCA-205"];
+    }
+    else if(a=="MCA" && b=="3")
+    {
+        arr2=["Select Subject","MCA-301","MCA-302","MCA-303","MM-301"];
+    }
+    else if(a=="MCA" && b=="4")
+    {
+        arr2=["Select Subject","MCA-401","MCA-402","MCA-403","HU-401","MM-401"];
+    }
+
     var string2="";
  
     for(i=0;i<arr2.length;i++)
