@@ -313,6 +313,7 @@ makaut-card-img
 }
 .dashboard-subtitle{
  
+  user-select: none;
         font-size: var(--h1-size);
         color: var(--first-color);
         margin-bottom: var(--mg-2);
@@ -418,6 +419,7 @@ font-weight: 700;
 
 .section-title, .section-subtitle{
   text-align: center;
+  user-select: none;
 }
 
 .section-title{

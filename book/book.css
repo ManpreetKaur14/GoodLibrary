@@ -1,16 +1,22 @@
-/* body {
-  font: 13px/20px "Lucida Grande", Tahoma, Verdana, sans-serif;
-  color: #404040;
-  background: #93cedf;
+.book__button
+{
+  justify-self: center;
+  text-align: center;
+}
+/* .button{
+  background-color: var(--first-color);
+  color:var(--second-color);
+  padding: .75rem 1rem;
+  border-radius : .5rem;
+  transition: .3s;
+  font-weight: 700;
+  margin-bottom: var(--mg-2);
+}
+.button:hover{
+font-weight: 900;
+color: #fff;
 } */
 
-/* .container {
-  text-align: center;
-  max-width: 1080px;
-  width: calc(100% - 2rem);
-  margin-left: var(--mg-2);
-  margin-right: var(--mg-2);
-} */
 .preference
 {
   margin-top: 10%;
