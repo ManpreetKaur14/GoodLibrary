@@ -4,18 +4,27 @@
   background: #93cedf;
 } */
 
-.container {
+/* .container {
   text-align: center;
   max-width: 1080px;
   width: calc(100% - 2rem);
   margin-left: var(--mg-2);
   margin-right: var(--mg-2);
+} */
+.preference
+{
+  margin-top: 10%;
+  align-content: center;
 }
 .book__container
 {
-
-  height: calc(100vh - var(--header-height));
-  align-content: center;
+    flex: 1  0 auto;
+    display: flex;
+    margin-top: 2%;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2%;
 }
 .container > .dropdown {
   margin: 0 20px;
@@ -26,10 +35,10 @@
   display: inline-block;
   position: relative;
   overflow: hidden;
-  height: 35px;
+  height: 40px;
   width: 300px;
   background: #ebf5fc;
-  border: 3px solid;
+  /* border: 1px solid; */
   border-color: #2c2c54;
   border-radius: .5rem;
   background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.06));
@@ -44,11 +53,12 @@
   content: '';
   position: absolute;
   z-index: 2;
-  top: 9px;
+  top: 15px;
   right: 10px;
   width: 0;
   height: 0;
   border: 4px dashed;
+ 
   border-color: #2c2c54 transparent;
   pointer-events: none;
 }
@@ -68,15 +78,15 @@
   position: relative;
   width: 130%;
   margin: 0;
-  height: 30px;
+  height: 40px;
+  outline: none;
   padding: 6px 8px 6px 10px;
   line-height: 14px;
   font-size: var(--normal-size);
   font-weight: 700;
   color: #2c2c54;
-  background: #f2f2f2; /* Fallback for IE 8 */
-  background: rgba(0, 0, 0, 0) !important;
-   border: 0;
+  background: #ebf5fc; 
+   border: none;
   border-radius: 0;
   -webkit-appearance: none;
 }
@@ -85,8 +95,6 @@
   z-index: 3;
   width: 100%;
   color: #394349;
-  outline: 2px solid #49aff2;
-  outline: 2px solid -webkit-focus-ring-color;
   outline-offset: -2px;
 }
 
@@ -94,11 +102,11 @@
   margin: 3px;
   padding: 6px 8px;
   text-shadow: none;
-  background: #f2f2f2;
-  border-radius: 3px;
+  outline: none;
+  background: #ebf5fc;
+  border-radius: .5rem;
   cursor: pointer;
 }
-
 /* Fix for IE 8 putting the arrows behind the select element. */
 
 .lt-ie9 .dropdown {

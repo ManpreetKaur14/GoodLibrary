@@ -28,10 +28,10 @@
         <a href="#" class="nav-logo">MyLibrary</a>
         <class class="nav-menu" id="nav_menu">
             <ul class="nav-list">
-                <li class="nav-item"><a href="index.css" class="nav_link">Home</a></li>
-                <li class="nav-item"><a href="index.html#dashboard" class="nav_link">Dashboard </a></li>
-                <li class="nav-item"><a href="index.html#about" class="nav_link">About</a></li>
-                <li class="nav-item"><a href="index.html#contact" class="nav_link">Contact</a></li>
+                <li class="nav-item"><a href="../index.html" class="nav_link">Home</a></li>
+                <li class="nav-item"><a href="../index.html#dashboard" class="nav_link">Dashboard </a></li>
+                <li class="nav-item"><a href="../index.html#about" class="nav_link">About</a></li>
+                <li class="nav-item"><a href="../index.html#contact" class="nav_link">Contact</a></li>
                 <li class="nav-item"><i class='bx bx-moon change-theme nav_link' id="theme-button"></i></li>
                 <li class="nav-item"><i class='bx bx-log-out-circle nav_link' id="logout-btn"></i></li>
             </ul>
@@ -45,9 +45,12 @@
     </header>
     
      <!------------------------------ DropDown------------------------------>
-        <section class="container">
+        <section class="preference">
+          <div class="dashboard__data">
+            <h2 class="dashboard-subtitle">Preferences</h2>
+            </div>
           <div class="book__container bd-container bd-grid">
-          <div class="dropdown">
+            <div class="dropdown">
             <select name="one" class="dropdown-select" id="input" onchange="random_function()">
                 <option>Select Branch</option>
                 <option value="BCA">BCA</option>
@@ -73,6 +76,9 @@
             </select>
           </div>
           </div>
+          <div class="about__data">
+            <span class="section-subtitle">Books Available</span>
+            </div>
         </section>
   <!-- </div>
 </section> -->
@@ -87,12 +93,12 @@
                 <div class="footer__content">
                     <h3 class="footer__title">Dashboard</h3>
                     <ul>
-                        <li><a href="#" class="footer__link">Book</a></li>
-                        <li><a href="#" class="footer__link">Syllabus</a></li>
-                        <li><a href="#" class="footer__link">Previous Year</a></li>
-                        <li><a href="#" class="footer__link">Assignment</a></li>
-                        <li><a href="#" class="footer__link">Resources</a></li>
-                        <li><a href="http://makautexam.net/" class="footer__link">Makaut</a></li>
+                      <li><a href="/book/book.html" class="footer__link">Book</a></li>
+                      <li><a href="/syllabus/syllabus.html" class="footer__link">Syllabus</a></li>
+                      <li><a href="/previous/previous.html" class="footer__link">Previous Year</a></li>
+                      <li><a href="/assignment/assignment.html" class="footer__link">Assignment</a></li>
+                      <li><a href="/resources/resources.html" class="footer__link">Resources</a></li>
+                      <li><a href="http://makautexam.net/" class="footer__link">Makaut</a></li>
                     </ul>
                 </div>
                 <div class="footer__content">

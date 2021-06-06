@@ -1,11 +1,11 @@
 function random_function()
 {
     var a=document.getElementById("input").value;
-    if(a==="BCA")
+    if(a=="BCA")
     {
         var arr=["Select Semester","1","2","3","4","5","6"];
     }
-    else if(a==="BBA")
+    else if(a=="BBA")
     {
          arr=["Select Semester","1","2","3","4","5","6"];
     }
@@ -106,6 +106,41 @@ function random_function_sem(){
     {
         arr2=["Select Subject","MCA-401","MCA-402","MCA-403","HU-401","MM-401"];
     }
+
+    // =========================B-TECH (ME)============================
+
+    else if(a=="ME" && b=="1")
+    {
+        arr2=["Select Subject","BS-PH101","BS-CH101","BS-M101","BS-M102","ES-EE101"];
+    }
+    else if(a=="ME" && b=="2")
+    {
+        arr2=["Select Subject","BS-PH101","BS-CH101","BS-M101","BS-M102","ES-EE101"];
+    }
+    else if(a=="ME" && b=="3")
+    {
+        arr2=["Select Subject","BS-M301","BS-BIO301","BS-ECE301","ES-ME301","PC-ME301","PC-ME302"];
+    }
+    else if(a=="ME" && b=="4")
+    {
+        arr2=["Select Subject","ES-ME-401","PC-ME-401","PC-ME-402","PC-ME-403","PC-ME-404"];
+    }
+    else if(a=="ME" && b=="5")
+    {
+        arr2=["Select Subject","PC-ME-501","PC-ME-502","PC-ME-503","HM-HU-501"];
+    }
+    // else if(a=="ME" && b=="6")
+    // {
+    //     arr2=["Select Subject","BS-PH101","BS-CH101","BS-M101","BS-M102","ES-EE101"];
+    // }
+    // else if(a=="ME" && b=="7")
+    // {
+    //     arr2=["Select Subject","BS-PH101","BS-CH101","BS-M101","BS-M102","ES-EE101"];
+    // }
+    // else if(a=="ME" && b=="8")
+    // {
+    //     arr2=["Select Subject","BS-PH101","BS-CH101","BS-M101","BS-M102","ES-EE101"];
+    // }
 
     var string2="";
  
