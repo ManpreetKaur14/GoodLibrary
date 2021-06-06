@@ -313,7 +313,7 @@ makaut-card-img
 }
 .dashboard-subtitle{
  
-  user-select: none;
+        user-select: none;
         font-size: var(--h1-size);
         color: var(--first-color);
         margin-bottom: var(--mg-2);
